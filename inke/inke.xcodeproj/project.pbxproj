@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141AB60B225F276200896C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB60A225F276200896C5A /* AppDelegate.m */; };
+		141AB613225F276200896C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141AB612225F276200896C5A /* Assets.xcassets */; };
+		141AB616225F276200896C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141AB614225F276200896C5A /* LaunchScreen.storyboard */; };
+		141AB619225F276200896C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB618225F276200896C5A /* main.m */; };
+		141AB628225F36C800896C5A /* EVATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB627225F36C800896C5A /* EVATabBarController.m */; };
+		141AB62B225F36E100896C5A /* EVATabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AB62A225F36E100896C5A /* EVATabBar.m */; };
+		14A0833F226026300032A0FE /* EVABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A0833E226026300032A0FE /* EVABaseViewController.m */; };
+		14A08342226026840032A0FE /* EVABaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A08341226026840032A0FE /* EVABaseNavController.m */; };
+		14A08346226026CF0032A0FE /* EVAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A08344226026CF0032A0FE /* EVAMainViewController.m */; };
+		14A08347226026CF0032A0FE /* EVAMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A08345226026CF0032A0FE /* EVAMainViewController.xib */; };
+		14A0834B226026FB0032A0FE /* EVAMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A08349226026FB0032A0FE /* EVAMeViewController.m */; };
+		14A0834C226026FB0032A0FE /* EVAMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A0834A226026FB0032A0FE /* EVAMeViewController.xib */; };
+		14A08351226040F40032A0FE /* EVALaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A0834F226040F40032A0FE /* EVALaunchViewController.m */; };
+		14A08352226040F40032A0FE /* EVALaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A08350226040F40032A0FE /* EVALaunchViewController.xib */; };
+		14A08357226069BE0032A0FE /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A08356226069BE0032A0FE /* UIImage+Original.m */; };
+		7CF8A0AB6412CDB9D27C8466 /* libPods-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C77AE5EFEAEA37A624521C69 /* libPods-inke.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		141AB606225F276200896C5A /* inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141AB609225F276200896C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		141AB60A225F276200896C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		141AB612225F276200896C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		141AB615225F276200896C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		141AB617225F276200896C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141AB618225F276200896C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		141AB61F225F28EF00896C5A /* inke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inke.pch; sourceTree = "<group>"; };
+		141AB623225F32C900896C5A /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		141AB626225F36C800896C5A /* EVATabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVATabBarController.h; sourceTree = "<group>"; };
+		141AB627225F36C800896C5A /* EVATabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVATabBarController.m; sourceTree = "<group>"; };
+		141AB629225F36E100896C5A /* EVATabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVATabBar.h; sourceTree = "<group>"; };
+		141AB62A225F36E100896C5A /* EVATabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVATabBar.m; sourceTree = "<group>"; };
+		14A0833D226026300032A0FE /* EVABaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVABaseViewController.h; sourceTree = "<group>"; };
+		14A0833E226026300032A0FE /* EVABaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVABaseViewController.m; sourceTree = "<group>"; };
+		14A08340226026840032A0FE /* EVABaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVABaseNavController.h; sourceTree = "<group>"; };
+		14A08341226026840032A0FE /* EVABaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVABaseNavController.m; sourceTree = "<group>"; };
+		14A08343226026CF0032A0FE /* EVAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAMainViewController.h; sourceTree = "<group>"; };
+		14A08344226026CF0032A0FE /* EVAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAMainViewController.m; sourceTree = "<group>"; };
+		14A08345226026CF0032A0FE /* EVAMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVAMainViewController.xib; sourceTree = "<group>"; };
+		14A08348226026FB0032A0FE /* EVAMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAMeViewController.h; sourceTree = "<group>"; };
+		14A08349226026FB0032A0FE /* EVAMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAMeViewController.m; sourceTree = "<group>"; };
+		14A0834A226026FB0032A0FE /* EVAMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVAMeViewController.xib; sourceTree = "<group>"; };
+		14A0834E226040F40032A0FE /* EVALaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVALaunchViewController.h; sourceTree = "<group>"; };
+		14A0834F226040F40032A0FE /* EVALaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVALaunchViewController.m; sourceTree = "<group>"; };
+		14A08350226040F40032A0FE /* EVALaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVALaunchViewController.xib; sourceTree = "<group>"; };
+		14A08355226069BE0032A0FE /* UIImage+Original.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
+		14A08356226069BE0032A0FE /* UIImage+Original.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
+		15AC2B26EA535EA07763E513 /* Pods-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inke/Pods-inke.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA2CEEF9CA083368484A0C2 /* Pods-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-inke/Pods-inke.release.xcconfig"; sourceTree = "<group>"; };
+		C77AE5EFEAEA37A624521C69 /* libPods-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141AB603225F276200896C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF8A0AB6412CDB9D27C8466 /* libPods-inke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141AB5FD225F276200896C5A = {
+			isa = PBXGroup;
+			children = (
+				141AB608225F276200896C5A /* inke */,
+				141AB607225F276200896C5A /* Products */,
+				C65DC7084F1B0C75EBE31551 /* Pods */,
+				8B57B7810A6FE90868C3295A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		141AB607225F276200896C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141AB606225F276200896C5A /* inke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		141AB608225F276200896C5A /* inke */ = {
+			isa = PBXGroup;
+			children = (
+				14A08353226068F40032A0FE /* New Group */,
+				14A0834D226040D40032A0FE /* Launch */,
+				14A0833C226026130032A0FE /* Me */,
+				14A0833B226025EE0032A0FE /* Main */,
+				141AB625225F362D00896C5A /* Base */,
+				141AB609225F276200896C5A /* AppDelegate.h */,
+				141AB60A225F276200896C5A /* AppDelegate.m */,
+				141AB612225F276200896C5A /* Assets.xcassets */,
+				141AB614225F276200896C5A /* LaunchScreen.storyboard */,
+				141AB617225F276200896C5A /* Info.plist */,
+				141AB618225F276200896C5A /* main.m */,
+				141AB624225F32D700896C5A /* Utils */,
+			);
+			path = inke;
+			sourceTree = "<group>";
+		};
+		141AB624225F32D700896C5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14A08354226069080032A0FE /* UIImage */,
+				141AB623225F32C900896C5A /* Common.h */,
+				141AB61F225F28EF00896C5A /* inke.pch */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		141AB625225F362D00896C5A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				141AB626225F36C800896C5A /* EVATabBarController.h */,
+				141AB627225F36C800896C5A /* EVATabBarController.m */,
+				141AB629225F36E100896C5A /* EVATabBar.h */,
+				141AB62A225F36E100896C5A /* EVATabBar.m */,
+				14A0833D226026300032A0FE /* EVABaseViewController.h */,
+				14A0833E226026300032A0FE /* EVABaseViewController.m */,
+				14A08340226026840032A0FE /* EVABaseNavController.h */,
+				14A08341226026840032A0FE /* EVABaseNavController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		14A0833B226025EE0032A0FE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				14A08343226026CF0032A0FE /* EVAMainViewController.h */,
+				14A08344226026CF0032A0FE /* EVAMainViewController.m */,
+				14A08345226026CF0032A0FE /* EVAMainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		14A0833C226026130032A0FE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				14A08348226026FB0032A0FE /* EVAMeViewController.h */,
+				14A08349226026FB0032A0FE /* EVAMeViewController.m */,
+				14A0834A226026FB0032A0FE /* EVAMeViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		14A0834D226040D40032A0FE /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				14A0834E226040F40032A0FE /* EVALaunchViewController.h */,
+				14A0834F226040F40032A0FE /* EVALaunchViewController.m */,
+				14A08350226040F40032A0FE /* EVALaunchViewController.xib */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		14A08353226068F40032A0FE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		14A08354226069080032A0FE /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				14A08355226069BE0032A0FE /* UIImage+Original.h */,
+				14A08356226069BE0032A0FE /* UIImage+Original.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		8B57B7810A6FE90868C3295A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77AE5EFEAEA37A624521C69 /* libPods-inke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65DC7084F1B0C75EBE31551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15AC2B26EA535EA07763E513 /* Pods-inke.debug.xcconfig */,
+				ABA2CEEF9CA083368484A0C2 /* Pods-inke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141AB605225F276200896C5A /* inke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141AB61C225F276200896C5A /* Build configuration list for PBXNativeTarget "inke" */;
+			buildPhases = (
+				4474030FB54E6B67DF2D70A3 /* [CP] Check Pods Manifest.lock */,
+				141AB602225F276200896C5A /* Sources */,
+				141AB603225F276200896C5A /* Frameworks */,
+				141AB604225F276200896C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inke;
+			productName = inke;
+			productReference = 141AB606225F276200896C5A /* inke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141AB5FE225F276200896C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EVA;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李元华";
+				TargetAttributes = {
+					141AB605225F276200896C5A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 141AB601225F276200896C5A /* Build configuration list for PBXProject "inke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141AB5FD225F276200896C5A;
+			productRefGroup = 141AB607225F276200896C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141AB605225F276200896C5A /* inke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		141AB604225F276200896C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141AB616225F276200896C5A /* LaunchScreen.storyboard in Resources */,
+				14A08352226040F40032A0FE /* EVALaunchViewController.xib in Resources */,
+				141AB613225F276200896C5A /* Assets.xcassets in Resources */,
+				14A0834C226026FB0032A0FE /* EVAMeViewController.xib in Resources */,
+				14A08347226026CF0032A0FE /* EVAMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4474030FB54E6B67DF2D70A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141AB602225F276200896C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A0833F226026300032A0FE /* EVABaseViewController.m in Sources */,
+				14A08351226040F40032A0FE /* EVALaunchViewController.m in Sources */,
+				14A08357226069BE0032A0FE /* UIImage+Original.m in Sources */,
+				14A08342226026840032A0FE /* EVABaseNavController.m in Sources */,
+				14A08346226026CF0032A0FE /* EVAMainViewController.m in Sources */,
+				141AB628225F36C800896C5A /* EVATabBarController.m in Sources */,
+				141AB62B225F36E100896C5A /* EVATabBar.m in Sources */,
+				141AB619225F276200896C5A /* main.m in Sources */,
+				141AB60B225F276200896C5A /* AppDelegate.m in Sources */,
+				14A0834B226026FB0032A0FE /* EVAMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		141AB614225F276200896C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141AB615225F276200896C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		141AB61A225F276200896C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		141AB61B225F276200896C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		141AB61D225F276200896C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AC2B26EA535EA07763E513 /* Pods-inke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54QJF9L7X8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = inke/Utils/inke.pch;
+				INFOPLIST_FILE = inke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = i8023eva.inke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		141AB61E225F276200896C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA2CEEF9CA083368484A0C2 /* Pods-inke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54QJF9L7X8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = inke/Utils/inke.pch;
+				INFOPLIST_FILE = inke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = i8023eva.inke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141AB601225F276200896C5A /* Build configuration list for PBXProject "inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141AB61A225F276200896C5A /* Debug */,
+				141AB61B225F276200896C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141AB61C225F276200896C5A /* Build configuration list for PBXNativeTarget "inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141AB61D225F276200896C5A /* Debug */,
+				141AB61E225F276200896C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141AB5FE225F276200896C5A /* Project object */;
+}
